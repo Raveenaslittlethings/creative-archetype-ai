@@ -38,6 +38,16 @@ if st.button("Analyze My Archetype"):
     dominant = max(scores, key=scores.get)
 
     st.subheader(f"Your Dominant Archetype: {dominant}")
+    with open("memory.json", "r") as f:
+        data = json.load(f)
+
+    data.append({
+        "dominant_archetype": dominant
+    })
+
+    with open("memory.json", "w") as f:
+        json.dump(data, f)
+        
     st.write(archetypes[dominant]["description"])
     st.write("### Strengths")
     st.write(archetypes[dominant]["strengths"])
