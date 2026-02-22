@@ -1,5 +1,4 @@
-archetypes = {
-    "Visionary": {
+archetypes = { "Visionary": {
         "core_trait": "Future-focused idea generator",
         "description": "You see possibilities before others do. You thrive on imagination, innovation, and long-term thinking.",
         "strengths": [
