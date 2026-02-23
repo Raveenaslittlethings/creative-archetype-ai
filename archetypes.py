@@ -1,5 +1,5 @@
-archetypes = { "Visionary": 
-        {
+archetypes = { 
+        "Visionary": {
         "core_trait": "Future-focused idea generator",
         "description": "You see possibilities before others do. You thrive on imagination, innovation, and long-term thinking.",
         "strengths": [
@@ -14,7 +14,6 @@ archetypes = { "Visionary":
         ],
         "growth_advice": "Pair your vision with structured execution. Collaborate with planners to bring ideas to life."
     },
-
     "Creator": {
         "core_trait": "Expressive builder",
         "description": "You transform ideas into tangible forms — art, systems, designs, or products.",
