@@ -73,3 +73,4 @@ archetypes = {
         ],
         "growth_advice": "Leave space for spontaneity and creative flow."
     }
+}
